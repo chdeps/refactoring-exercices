@@ -1,2 +1,3 @@
-# refactoring-exercices
-Some  refactoring exercices in TypeScript
+# Refactoring Exercices
+
+> Some  refactoring exercices in TypeScript
