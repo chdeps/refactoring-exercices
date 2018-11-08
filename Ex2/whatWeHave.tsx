@@ -6,7 +6,7 @@
 
 import Svg from 'react-native-svg';
 
-const ChevronLeft = (style) => (
+const ChevronLeft = ({ style }) => (
   <Svg type="ChevronLeft" rotation={180} style={style}/>
 );
 
