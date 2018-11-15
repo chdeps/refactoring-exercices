@@ -35,7 +35,7 @@ export class ProfilePictureEditGallery extends Component<TProps> {
       ? undefined
       : i18n.translate('profilePictureEditGallery.addPictureText');
 
-    const mainButtonType = hasMoreThanOnePicture
+    const mainButtonType = !hasMoreThanOnePicture
       ? EBUTTON_ACTION_ICONS.DELETE
       : undefined;
 
